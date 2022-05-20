@@ -2,6 +2,9 @@
 const zipInput = document.querySelector("#zip");
 const feelInput = document.querySelector("#feelings");
 const btn = document.querySelector("#generate");
+const date = document.querySelector("#date");
+const temp = document.querySelector("#temp");
+const content = document.querySelector("#content");
 
 // Create a new date instance dynamically with JS
 let d = new Date();

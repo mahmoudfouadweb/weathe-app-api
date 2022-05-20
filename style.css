@@ -93,13 +93,15 @@ button {
   border-radius: 25px;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, aquamarine);
   margin-bottom: 35px;
+  margin-top: 60px;
 }
 
 h1 {
   font-size: 36px;
+  color: #afd907;
 }
 
-textarea {
+.feel textarea {
   background: #eee;
   color: #000;
   font-size: 20px;
