@@ -1,5 +1,4 @@
 /* Global Variables */
-const zipInput = document.querySelector("#zip");
 const feelInput = document.querySelector("#feelings");
 const btn = document.querySelector("#generate");
 const date = document.querySelector("#date");
@@ -10,6 +9,11 @@ const content = document.querySelector("#content");
 let d = new Date();
 let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
 
+// display result
+const displayUI = function (data) {
+  let value = document.querySelector("#zip").value;
+  console.log(value);
+};
 // get weather by longt and litt data 5tot eltol we el3rd
 const getWeather = function (latt, longt) {
   fetch(
@@ -29,3 +33,5 @@ const getWeather = function (latt, longt) {
     );
 };
 getWeather(30.526630005797454, 31.005160409995455);
+
+displayUI();
