@@ -30,8 +30,11 @@ body {
   background-color: #eee;
   color: #000;
   width: 500px;
-  height: 300px;
+  height: 150px;
   border-radius: 30px;
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 #date {
@@ -42,13 +45,20 @@ body {
 
 #content {
 }
-
+.feel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  margin-top: 90px;
+}
 .headline {
   text-align: center;
   margin-top: 20px;
   font-size: 2rem;
 }
 .title {
+  margin-bottom: 20px;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -68,11 +78,13 @@ input {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   border: none;
+  border-radius: 20px;
+  padding-left: 15px;
 }
 
 button {
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 60px;
   background: #afd907;
   color: #000;
   font-size: 26px;
@@ -91,9 +103,11 @@ textarea {
   background: #eee;
   color: #000;
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: cursive;
   border-radius: 30px;
   padding: 15px;
+  width: 490px;
+  height: 100px;
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,
@@ -106,17 +120,17 @@ button:focus {
 ::placeholder {
   /* Firefox, Chrome, Opera */
   color: #000;
-  font-family: "Oswald", sans-serif;
+  font-family: cursive;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #000;
-  font-family: "Oswald", sans-serif;
+  font-family: cursive;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #000;
-  font-family: "Oswald", sans-serif;
+  font-family: cursive;
 }
