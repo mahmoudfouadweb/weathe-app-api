@@ -28,13 +28,16 @@ body {
 
 #entryHolder {
   background-color: #eee;
-  color: #000;
+  color: green;
+  font-size: 28px;
   width: 500px;
-  height: 150px;
+  height: 280px;
+  background-color: lightgray;
   border-radius: 30px;
-  text-align: start;
-  padding-left: 15px;
-  padding-top: 15px;
+  text-align: center;
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 #date {
@@ -76,7 +79,7 @@ input {
   background: #eee;
   color: #000;
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   border: none;
   border-radius: 20px;
   padding-left: 15px;
@@ -88,7 +91,7 @@ button {
   background: #afd907;
   color: #000;
   font-size: 26px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   border: none;
   border-radius: 25px;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, aquamarine);
