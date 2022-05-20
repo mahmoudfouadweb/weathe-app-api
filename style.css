@@ -40,14 +40,6 @@ body {
   flex-direction: column;
 }
 
-#date {
-}
-
-#temp {
-}
-
-#content {
-}
 .feel {
   display: flex;
   flex-direction: column;
